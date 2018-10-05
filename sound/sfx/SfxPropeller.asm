@@ -1,0 +1,1 @@
+Sfx_Propeller:	    db 0FEh,   0, 21h,	 1, 18h, 60h, 80h, 19h,0A0h,0C0h, 1Ah,0D0h

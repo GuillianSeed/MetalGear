@@ -1,0 +1,1 @@
+Sfx_MenuMove:	    db 0FEh,   0, 22h,	 1,0D1h,   0,0D0h, 80h,0D0h, 40h,0FFh
