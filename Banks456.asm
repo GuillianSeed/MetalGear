@@ -62,7 +62,7 @@
 
 
 
-	include	"data/weaponGfxXY.asm"
+	include	"data/weapongfxxy.asm"
 	IF (JAPANESE)
 	include	"data/weaponnamesjp.asm"
 	ELSE

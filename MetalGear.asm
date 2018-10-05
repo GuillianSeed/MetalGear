@@ -10,7 +10,7 @@
 ;	Hiroyuki Fukui
 ;
 ; Sub Program:
-;	Tomoori Ostuka
+;	Tomonori Otsuka
 ;	Koji Toyohara
 ;
 ; Graphic Design:
@@ -43,9 +43,9 @@ JAPANESE	equ	0	; 1 = Japanese version, 0 = English version
 ;
 ;----------------------------------------------------------------------------
 
-		include	"constants/Bios.asm"
+		include	"constants/bios.asm"
 		include	"constants/SystemVariables.asm"
-		include	"constants/Structures.asm"
+		include	"constants/structures.asm"
 		include	"constants/Enums.asm"
 		include	"Variables.asm"
 
