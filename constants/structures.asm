@@ -3591,7 +3591,7 @@ ZzzSignSprIdx:	    BYTE
 
 ; ---------------------------------------------------------------------------
 
-	STRUCT	SOUND		    struc ; (sizeof=0x20)		    ; ...
+	STRUCT	SOUND		    ; (sizeof=0x20)		    ; ...
 NOTE_COUNTER:	    BYTE
 NOTE_LENGHT:	    BYTE
 ID:		    BYTE
@@ -3628,7 +3628,7 @@ field_1F:	    BYTE
 
 ; ---------------------------------------------------------------------------
 
-	STRUCT	DOOR		    struc ; (sizeof=0x10)
+	STRUCT	DOOR		    ; (sizeof=0x10)
 ID:		    BYTE
 CLOSED:		    BYTE				    ; 0=Open, 1=Closed
 OPEN_LOGIC_ID:	    BYTE				    ; (Card x, event, bomb...)
@@ -3649,7 +3649,7 @@ DEST_ROOM:	    BYTE
 
 ; ---------------------------------------------------------------------------
 
-	STRUCT	ITEM		    struc ; (sizeof=0x4)		    ; ...
+	STRUCT	ITEM		    ; (sizeof=0x4)		    ; ...
 ID:		    BYTE
 status:		    BYTE				    ; bit0=size	32x16/16x16
 Y:		    BYTE
@@ -3658,7 +3658,7 @@ X:		    BYTE
 
 ; ---------------------------------------------------------------------------
 
-	STRUCT	PLAYER_SHOT	    struc ; (sizeof=0x2B)		    ; ...
+	STRUCT	PLAYER_SHOT	    ; (sizeof=0x2B)		    ; ...
 ID:		    BYTE				    ; FF = Remove actor	and release sprites
 status:		    BYTE
 Timer:		    BYTE
