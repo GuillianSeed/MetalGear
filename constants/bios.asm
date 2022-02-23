@@ -38,14 +38,14 @@ CHGMOD:		equ	#5f				; Switches to given	screenmode
 CHGCLR:		equ	#62				; Changes the screencolors
 NMI:		equ	#66				; Executes (non-maskable interupt) handling	routine
 CLRSPR:		equ	#69				; Initialises all sprites
-INITXT:		equ	#6c				; Schakelt naar SCREEN 0 (tekst-scherm met 40*24 tekens)
+INITXT:		equ	#6c				; Switches to SCREEN 0 (text screen 	with 40*24 characters)
 INIT32:		equ	#6f				; Switches to SCREEN 1 (text screen	with 32*24 characters)
 INIGRP:		equ	#72				; Switches to SCREEN 2 (high resolution screen with	256*192	pixels)
 INIMLT:		equ	#75				; Switches to SCREEN 3 (multi-color	screen 64*48 pixels)
-SETTXT:		equ	#78				; Switches to VDP in SCREEN	0 mode
-SETT32:		equ	#7b				; Schakelt VDP in SCREEN 1 modus
-SETGRP:		equ	#7e				; Switches VDP to SCREEN 2 mode
-SETMLT:		equ	#81				; Switches VDP to SCREEN 3 mode
+SETTXT:		equ	#78				; Switches VDP in SCREEN 0 modus
+SETT32:		equ	#7b				; Switches VDP in SCREEN 1 modus
+SETGRP:		equ	#7e				; Switches VDP to SCREEN 2 modus
+SETMLT:		equ	#81				; Switches VDP to SCREEN 3 modus
 CALPAT:		equ	#84				; Returns the address of the sprite	pattern	table
 CALATR:		equ	#87				; Returns the address of the sprite	attribute table
 GSPSIZ:		equ	#8a				; Returns current sprite size
