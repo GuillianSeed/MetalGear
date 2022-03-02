@@ -7,7 +7,7 @@ This repository contains the fully annotated disassembly of the original Metal G
 
 I like to learn how things work, and to explain to others what I have learned.
 
-This was a good oportunity to find out how Konami made games in the old good days, how all their games use the same structure, how they reused the same "libraries" in different games (e.g. the routine used to calculate the trajectory of a shot), etc.
+This was a good opportunity to find out how Konami made games in the old good days, how all their games use the same structure, how they reused the same "libraries" in different games (e.g. the routine used to calculate the trajectory of a shot), etc.
 
 Also, I like to find oddities (unused graphics, rooms, texts, musics, code...) and find bugs.
 
